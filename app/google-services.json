@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "304213436347",
+    "project_id": "carease-ba341",
+    "storage_bucket": "carease-ba341.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:304213436347:android:786ebfad3ebbb6e32c069e",
+        "android_client_info": {
+          "package_name": "com.example.carease"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "304213436347-jbc5dm7s4661diit8dfvlqva3slc079h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsaaDLsCxY-IlovJE1nFTn5vu5KS4ulQg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "304213436347-jbc5dm7s4661diit8dfvlqva3slc079h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
