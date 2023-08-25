@@ -12,17 +12,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CarEase"
         tools:targetApi="31">
-        <activity
-            android:name=".presentation.activity.SignUpActivity"
-            android:exported="false" />
-        <activity
-            android:name=".presentation.activity.HomeActivity"
+        <activity android:name=".presentation.activity.LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".presentation.activity.SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.activity.HomeActivity"
+            android:exported="false">
         </activity>
     </application>
 
