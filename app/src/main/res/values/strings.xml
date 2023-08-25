@@ -11,4 +11,10 @@
     <string name="confirm_password">Confirm Password</string>
     <string name="sign_in">Sign in</string>
     <string name="have_an_account">Have an account?</string>
+    <string name="home">Home</string>
+    <string name="shop">Shop</string>
+    <string name="bag">Bag</string>
+    <string name="favorites">Favorites</string>
+    <string name="profile">Profile</string>
+    <string name="karan_jadaun">Karan Jadaun</string>
 </resources>
