@@ -17,4 +17,17 @@
     <string name="favorites">Favorites</string>
     <string name="profile">Profile</string>
     <string name="karan_jadaun">Karan Jadaun</string>
+    <string name="car_sale">Car Sale</string>
+    <string name="check">Check</string>
+    <string name="new">New</string>
+    <string name="new">New</string>
+    <string name="New">New</string>
+    <string name="view_all">View All</string>
+    <string name="you_never_seen_before">You never seen before</string>
+    <string name="brand_name">Brand name</string>
+    <string name="product_name">Product name</string>
+    <string name="product_price">Product price</string>
+    <string name="_10">-10%</string>
+    <string name="sale">Sale</string>
+    <string name="you_never_seen_before">You never seen before</string>
 </resources>
