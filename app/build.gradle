@@ -47,8 +47,18 @@ dependencies {
     implementation libs.androidx.legacy.support.v4
     implementation libs.lottie
     implementation(platform("com.google.firebase:firebase-bom:32.2.3"))
-
+    implementation libs.glide
     // Add the dependency for the Firebase Authentication library
     // When using the BoM, you don't specify versions in Firebase library dependencies
-    implementation("com.google.firebase:firebase-auth-ktx")
+    implementation('com.google.firebase:firebase-auth-ktx')
+    implementation libs.gson
+    implementation libs.kotlinx.coroutines.play.services
+    implementation libs.kotlinx.coroutines.android
+    implementation libs.kotlinx.coroutines.core
+    implementation libs.androidx.room.runtime
+    kapt libs.androidx.room.compiler
+    implementation libs.androidx.room.ktx
+    implementation libs.androidx.lifecycle.extensions
+    implementation libs.androidx.lifecycle.viewmodel.ktx
+    implementation libs.androidx.lifecycle.livedata.ktx
 }
