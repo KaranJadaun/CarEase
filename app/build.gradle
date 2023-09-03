@@ -3,6 +3,7 @@ plugins {
     alias(libs.plugins.kotlinAndroid)
     id 'com.google.gms.google-services'
     id 'kotlin-parcelize'
+    id 'kotlin-android'
     id 'kotlin-kapt'
 }
 
@@ -19,7 +20,6 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
-
     buildTypes {
         release {
             minifyEnabled false
@@ -32,6 +32,9 @@ android {
     }
     kotlinOptions {
         jvmTarget = '1.8'
+    }
+    kapt {
+        generateStubs = true
     }
 }
 
@@ -55,9 +58,9 @@ dependencies {
     implementation libs.kotlinx.coroutines.play.services
     implementation libs.kotlinx.coroutines.android
     implementation libs.kotlinx.coroutines.core
-    implementation libs.androidx.room.runtime
-    kapt libs.androidx.room.compiler
-    implementation libs.androidx.room.ktx
+//    implementation libs.androidx.room.runtime
+//    kapt libs.androidx.room.compiler
+//    implementation libs.androidx.room.ktx
     implementation libs.androidx.lifecycle.extensions
     implementation libs.androidx.lifecycle.viewmodel.ktx
     implementation libs.androidx.lifecycle.livedata.ktx

@@ -120,7 +120,7 @@ class HomeFragment : Fragment() {
         }
         val gson = Gson()
         val listCoverType = object : TypeToken<List<Product>>() {}.type
-        var coverD: List<Product> = gson.fromJson(jsonFileString, listCoverType)
+        val coverD: List<Product> = gson.fromJson(jsonFileString, listCoverType)
         coverD.forEachIndexed { idx, person ->
             coverProduct.add(person)
             saleProduct.add(person)
