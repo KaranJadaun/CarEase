@@ -15,6 +15,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.airbnb.lottie.LottieAnimationView
 import com.example.carease.R
 import com.example.carease.data.model.Product
+import com.example.carease.presentation.activity.VisualSearchActivity
 import com.example.carease.presentation.adapter.CoverProductAdapter
 import com.example.carease.presentation.adapter.ProductAdapter
 import com.example.carease.presentation.adapter.SaleProductAdapter
@@ -24,32 +25,30 @@ import java.io.IOException
 
 class HomeFragment : Fragment() {
 
-    lateinit var coverRecView: RecyclerView
-    lateinit var newRecView: RecyclerView
-    lateinit var saleRecView: RecyclerView
-    lateinit var coverProduct: ArrayList<Product>
-    lateinit var newProduct: ArrayList<Product>
-    lateinit var saleProduct: ArrayList<Product>
+    lateinit var coverRecView:RecyclerView
+    lateinit var newRecView:RecyclerView
+    lateinit var saleRecView:RecyclerView
+    lateinit var coverProduct:ArrayList<Product>
+    lateinit var newProduct:ArrayList<Product>
+    lateinit var saleProduct:ArrayList<Product>
     lateinit var coverProductAdapter: CoverProductAdapter
     lateinit var newProductAdapter: ProductAdapter
     lateinit var saleProductAdapter: SaleProductAdapter
     lateinit var animationView: LottieAnimationView
-    lateinit var newLayout: LinearLayout
-    lateinit var saleLayout: LinearLayout
-
+    lateinit var newLayout:LinearLayout
+    lateinit var saleLayout:LinearLayout
 
     override fun onCreateView(
-        inflater: LayoutInflater,
-        container: ViewGroup?,
+        inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         val view = inflater.inflate(R.layout.fragment_home, container, false)
+
         activity?.window?.addFlags(WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS)
 
         coverProduct = arrayListOf()
         newProduct = arrayListOf()
         saleProduct = arrayListOf()
-
         coverRecView = view.findViewById(R.id.coverRecView)
         newRecView = view.findViewById(R.id.newRecView)
         saleRecView = view.findViewById(R.id.saleRecView)
@@ -58,35 +57,32 @@ class HomeFragment : Fragment() {
         animationView = view.findViewById(R.id.animationView)
 
         val visualSearchBtn_homePage:ImageView = view.findViewById(R.id.visualSearchBtn_homePage)
+
         hideLayout()
         setCoverData()
         setNewProductData()
 
-        coverRecView.layoutManager = LinearLayoutManager(context, LinearLayoutManager.HORIZONTAL, false)
+        coverRecView.layoutManager = LinearLayoutManager(context,LinearLayoutManager.HORIZONTAL, false)
         coverRecView.setHasFixedSize(true)
         coverProductAdapter = CoverProductAdapter(activity as Context, coverProduct )
         coverRecView.adapter = coverProductAdapter
-
         newRecView.layoutManager = LinearLayoutManager(context,LinearLayoutManager.HORIZONTAL, false)
         newRecView.setHasFixedSize(true)
         newProductAdapter = ProductAdapter(newProduct, activity as Context )
         newRecView.adapter = newProductAdapter
-
         saleRecView.layoutManager = LinearLayoutManager(context,LinearLayoutManager.HORIZONTAL, false)
         saleRecView.setHasFixedSize(true)
         saleProductAdapter = SaleProductAdapter(saleProduct, activity as Context )
         saleRecView.adapter = saleProductAdapter
 
-//        visualSearchBtn_homePage.setOnClickListener {
-//            startActivity(Intent(context, VisualSearchActivity::class.java))
-//        }
-
+        visualSearchBtn_homePage.setOnClickListener {
+            startActivity(Intent(context, VisualSearchActivity::class.java))
+        }
         showLayout()
-
         return view
     }
 
-    private fun hideLayout() {
+    private fun hideLayout(){
         animationView.playAnimation()
         animationView.loop(true)
         coverRecView.visibility = View.GONE
@@ -120,7 +116,7 @@ class HomeFragment : Fragment() {
         }
         val gson = Gson()
         val listCoverType = object : TypeToken<List<Product>>() {}.type
-        val coverD: List<Product> = gson.fromJson(jsonFileString, listCoverType)
+        var coverD: List<Product> = gson.fromJson(jsonFileString, listCoverType)
         coverD.forEachIndexed { idx, person ->
             coverProduct.add(person)
             saleProduct.add(person)
@@ -138,5 +134,4 @@ class HomeFragment : Fragment() {
             newProduct.add(person)
         }
     }
-
 }

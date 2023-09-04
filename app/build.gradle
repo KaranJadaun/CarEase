@@ -58,6 +58,7 @@ dependencies {
     implementation libs.kotlinx.coroutines.play.services
     implementation libs.kotlinx.coroutines.android
     implementation libs.kotlinx.coroutines.core
+    implementation libs.circleimageview
 //    implementation libs.androidx.room.runtime
 //    kapt libs.androidx.room.compiler
 //    implementation libs.androidx.room.ktx

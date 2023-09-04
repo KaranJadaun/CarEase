@@ -47,7 +47,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -61,7 +60,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:fontFamily="@font/metropolis_regular"
-                android:text="Total amount:"
+                android:text="@string/total_amount"
                 android:textColor="@color/textAd"
                 android:textSize="16sp" />
 
@@ -72,7 +71,7 @@
                 android:layout_weight="1"
                 android:fontFamily="@font/metropolis_semibold"
                 android:gravity="right"
-                android:text="$120"
+                android:text="@string/_120"
                 android:textColor="@color/mainText"
                 android:textSize="18sp" />
 
@@ -87,7 +86,7 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="20dp"
             android:background="@drawable/btn_bg"
-            android:text="CHECK OUT" />
+            android:text="@string/check_out" />
 
     </LinearLayout>
 
@@ -118,11 +117,10 @@
             android:gravity="center"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Empty Bag"
+            android:text="@string/empty_bag"
             android:textColor="@color/textAd"
             android:fontFamily="@font/metropolis_semibold"
-            android:textSize="25dp"
-            >
+            android:textSize="25sp" >
 
         </TextView>
     </LinearLayout>

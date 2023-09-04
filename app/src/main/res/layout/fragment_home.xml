@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/MainScrollView_homeFrag"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/MainScrollView_homeFrag"
-    xmlns:tools="http://schemas.android.com/tools"
     android:background="@color/background"
     tools:context=".presentation.fragment.HomeFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/MainLayout_homeFrag"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/MainLayout_homeFrag" >
+        android:layout_height="wrap_content">
 
         <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/coverRecView"
             android:layout_width="match_parent"
             android:layout_height="480dp"
-            android:id="@+id/coverRecView"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -25,11 +25,11 @@
         <LinearLayout
             android:id="@+id/newLayout"
             android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/coverRecView"
-            android:layout_height="wrap_content">
+            app:layout_constraintTop_toBottomOf="@+id/coverRecView">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -43,8 +43,8 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
-                    android:layout_marginEnd="10dp">
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp">
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -52,7 +52,7 @@
                         android:fontFamily="@font/metropolis_semibold"
                         android:text="@string/New"
                         android:textColor="@color/mainText"
-                        android:textSize="25sp"/>
+                        android:textSize="25sp" />
 
                     <androidx.legacy.widget.Space
                         android:layout_width="0dp"
@@ -72,10 +72,11 @@
                 </LinearLayout>
 
                 <TextView
+
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
-                    android:layout_marginEnd="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:fontFamily="@font/metropolis_regular"
                     android:text="@string/you_never_seen_before"
                     android:textColor="@color/textAd"
@@ -84,14 +85,15 @@
             </LinearLayout>
 
             <androidx.recyclerview.widget.RecyclerView
-                android:layout_width="match_parent"
                 android:id="@+id/newRecView"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
                 android:layout_marginTop="20dp"
+                android:orientation="horizontal"
                 app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-                tools:listitem="@layout/single_product" />
+                tools:listitem="@layout/single_product">
 
+            </androidx.recyclerview.widget.RecyclerView>
         </LinearLayout>
 
         <LinearLayout
@@ -102,7 +104,9 @@
             android:orientation="vertical"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@id/newLayout">
+            app:layout_constraintTop_toBottomOf="@+id/newLayout"
+
+            >
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -115,8 +119,8 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
-                    android:layout_marginEnd="10dp">
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp">
 
                     <TextView
 
@@ -148,8 +152,8 @@
 
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
-                    android:layout_marginEnd="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:fontFamily="@font/metropolis_regular"
                     android:text="@string/you_never_seen_before"
                     android:textColor="@color/textAd"
@@ -158,23 +162,24 @@
             </LinearLayout>
 
             <androidx.recyclerview.widget.RecyclerView
-                android:layout_width="match_parent"
                 android:id="@+id/saleRecView"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"/>
+                android:layout_marginTop="20dp">
 
+            </androidx.recyclerview.widget.RecyclerView>
         </LinearLayout>
 
         <com.airbnb.lottie.LottieAnimationView
-            android:layout_width="100dp"
             android:id="@+id/animationView"
+            android:layout_width="100dp"
             android:layout_height="100dp"
             android:visibility="gone"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:lottie_rawRes="@raw/circle_progress"/>
+            app:lottie_rawRes="@raw/circle_progress" />
 
         <ImageView
             android:id="@+id/visualSearchBtn_homePage"
@@ -184,8 +189,9 @@
             android:layout_marginEnd="20dp"
             android:src="@drawable/ic_visual_search"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
+            app:layout_constraintTop_toTopOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
+
 
 </ScrollView>

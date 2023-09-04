@@ -1,0 +1,54 @@
+[
+  {
+  "productName": "991 GT3",
+  "productId": "1",
+  "productPrice": "390000",
+  "productDes": "The 991 GT3 features a new 3.8 litre multi-point\n\n electronic indirect injection flat-six engine\n\n developing 475 PS (469 hp; 349 kW) at 8,250 rpm,\n\n a Porsche Doppelkupplung (PDK) double-clutch \n\n gearbox and rear-wheel steering. The engine \n\n is based on the unit fitted in the 991 Carrera S,\n\n but shares only a few common parts.",
+  "productRating": 4.9,
+  "productDisCount": "12%",
+  "productHave": true,
+  "productBrand": "Porsche",
+  "productImage": "https://cdn.elferspot.com/wp-content/uploads/2019/05/Porsche-911-991-GT3-for-sale--1024x683.jpg",
+  "productCategory": "Sports Car",
+  "productNote": "Porsche"
+  },
+  {
+  "productName": "AMG GLS 63",
+  "productId": "2",
+  "productPrice": "430000",
+  "productDes": "With a 603-hp twin-turbo V-8 engine \n\n and an AMG-massaged air suspension, the 2024 GLS63 is a \n\n luxury SUV for the power-hungry. Its roaring powertrain propelled \n\n it to 60 mph in just 3.6 seconds at our test track,\n\n and with seating for up to seven passengers, it'll get the \n\n school run done nearly as quickly.",
+  "productRating": 4.7,
+  "productDisCount": "15%",
+  "productHave": false,
+  "productBrand": "Mercedes Benz",
+  "productImage": "https://hips.hearstapps.com/hmg-prod/images/2024-mercedes-amg-gls63-103-642b777fa7be3.jpg?crop=0.734xw:0.825xh;0.128xw,0.0457xh&resize=768:*",
+  "productCategory": "SUV",
+  "productNote": "Mercedes Benz"
+  },
+  {
+    "productName": "Range Rover",
+    "productId": "3",
+    "productPrice": "350000",
+    "productDes": " A 523-hp twin-turbo 4.4-liter V-8 engine—Land Rover \n\n calls it P530—is even perkier and cranks up the Range Rover's\n\n towing capacity to 8200 pounds. At our test track, the P530\n\n hustled the Range Rover to 60 mph in 4.3 seconds; the P400\n\n did it in 5.5 seconds.",
+    "productRating": 4.7,
+    "productDisCount": "10%",
+    "productHave": true,
+    "productBrand": "Land Rover",
+    "productImage": "https://hips.hearstapps.com/hmg-prod/images/2022-range-rover-se-lwb-470-1665593876.jpg?crop=0.603xw:0.676xh;0.282xw,0.324xh&resize=768:*",
+    "productCategory": "SUV",
+    "productNote": "Land Rover"
+  },
+  {
+    "productName": "X7",
+    "productId": "4",
+    "productPrice": "256000",
+    "productDes": "The entry-level X7 xDrive40i is powered by a 375-hp\n\n turbocharged inline-six-cylinder, and the M60i has a \n\n twin-turbo 4.4-liter V-8 that makes 523 horses. \n\nThe Alpina XB7 has a specially tuned version of that V-8, \n\n which develops 630 horsepower.",
+    "productRating": 5.0,
+    "productDisCount": "6%",
+    "productHave": true,
+    "productBrand": "BMW",
+    "productImage": "https://hips.hearstapps.com/hmg-prod/images/2023-bmw-x7-xdrive-40i148-641c5b429bee5.jpg?crop=0.570xw:0.641xh;0.205xw,0.313xh&resize=768:*",
+    "productCategory": "SUV",
+    "productNote": "BMW"
+  }
+]
