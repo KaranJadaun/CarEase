@@ -52,4 +52,10 @@
     <string name="notifications_password">Notifications, password</string>
     <string name="categories">Categories</string>
     <string name="fashion_sale">Fashion Sale</string>
+    <string name="_2_2_0_3">* * * * * * * * * * * * 2 2 0 3</string>
+    <string name="card_holder_name">Card Holder Name</string>
+    <string name="expiry_date">Expiry Date</string>
+    <string name="_05_34">05/34</string>
+    <string name="use_as_default_payment_method">Use as default payment method</string>
+    <string name="todo">TODO</string>
 </resources>

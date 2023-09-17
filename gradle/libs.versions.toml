@@ -1,7 +1,12 @@
 [versions]
 agp = "8.3.0-alpha01"
+androidx-espresso-core = "3.5.0"
+androidx-junit = "1.1.4"
+androidx-lifecycle-viewmodel-ktx = "2.5.1"
+androidx-room-runtime = "2.5.0-beta02"
 circleimageview = "3.1.0"
 glide = "4.16.0"
+google-gson = "2.9.0"
 google-services = "4.3.15"
 gson = "2.10"
 jetbrains-kotlin-gradle-plugin = "1.9.10"
@@ -13,28 +18,40 @@ espresso-core = "3.5.1"
 appcompat = "1.6.1"
 kotlin-gradle-plugin = "1.5.31"
 kotlinx-coroutines-android = "1.6.4"
+kotlinx-coroutines-core = "1.6.1"
 legacy-support-v4 = "1.0.0"
 lifecycle-extensions = "2.2.0"
+lifecycle-livedata-ktx = "2.5.1"
 lifecycle-viewmodel-ktx = "2.6.1"
 lottie = "5.2.0"
 material = "1.9.0"
 constraintlayout = "2.1.4"
 firebase-auth-ktx = "22.1.1"
+room-compiler = "2.5.0-beta02"
+room-ktx = "2.5.0-beta02"
 room-runtime = "2.5.2"
 
 [libraries]
+androidx-espresso-core-v350 = { module = "androidx.test.espresso:espresso-core", version.ref = "androidx-espresso-core" }
+androidx-junit-v114 = { module = "androidx.test.ext:junit", version.ref = "androidx-junit" }
 androidx-legacy-support-v4 = { module = "androidx.legacy:legacy-support-v4", version.ref = "legacy-support-v4" }
 androidx-lifecycle-extensions = { module = "androidx.lifecycle:lifecycle-extensions", version.ref = "lifecycle-extensions" }
 androidx-lifecycle-livedata-ktx = { module = "androidx.lifecycle:lifecycle-livedata-ktx", version.ref = "lifecycle-viewmodel-ktx" }
+androidx-lifecycle-livedata-ktx-v251 = { module = "androidx.lifecycle:lifecycle-livedata-ktx", version.ref = "lifecycle-livedata-ktx" }
 androidx-lifecycle-viewmodel-ktx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycle-viewmodel-ktx" }
+androidx-lifecycle-viewmodel-ktx-v251 = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "androidx-lifecycle-viewmodel-ktx" }
 androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "room-runtime" }
+androidx-room-compiler-v250beta02 = { module = "androidx.room:room-compiler", version.ref = "room-compiler" }
 androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "room-runtime" }
+androidx-room-ktx-v250beta02 = { module = "androidx.room:room-ktx", version.ref = "room-ktx" }
 androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "room-runtime" }
+androidx-room-runtime-v250beta02 = { module = "androidx.room:room-runtime", version.ref = "androidx-room-runtime" }
 circleimageview = { module = "de.hdodenhof:circleimageview", version.ref = "circleimageview" }
 core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
 glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
 google-services = { module = "com.google.gms:google-services", version.ref = "google-services" }
 gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+gson-v290 = { module = "com.google.code.gson:gson", version.ref = "google-gson" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-test-ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidx-test-ext-junit" }
 espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espresso-core" }
@@ -43,6 +60,7 @@ kotlin-gradle-plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", v
 kotlin-gradle-plugin-vkotlinversion = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "jetbrains-kotlin-gradle-plugin" }
 kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlinx-coroutines-android" }
 kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinx-coroutines-android" }
+kotlinx-coroutines-core-v161 = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinx-coroutines-core" }
 kotlinx-coroutines-play-services = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-play-services", version.ref = "kotlinx-coroutines-android" }
 lottie = { module = "com.airbnb.android:lottie", version.ref = "lottie" }
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }

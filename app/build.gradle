@@ -59,9 +59,11 @@ dependencies {
     implementation libs.kotlinx.coroutines.android
     implementation libs.kotlinx.coroutines.core
     implementation libs.circleimageview
-//    implementation libs.androidx.room.runtime
-//    kapt libs.androidx.room.compiler
-//    implementation libs.androidx.room.ktx
+    var room_version = "2.5.2"
+    implementation("androidx.room:room-runtime:$room_version")
+    annotationProcessor("androidx.room:room-compiler:$room_version")
+    // To use Kotlin annotation processing tool (kapt)
+    kapt("androidx.room:room-compiler:$room_version")
     implementation libs.androidx.lifecycle.extensions
     implementation libs.androidx.lifecycle.viewmodel.ktx
     implementation libs.androidx.lifecycle.livedata.ktx
