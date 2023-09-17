@@ -9,10 +9,6 @@
 - [Couroutines](https://developer.android.com/kotlin/coroutines) - A coroutine is a concurrency design pattern that you can use on Android to simplify code that executes asynchronously. Coroutines were added to Kotlin in version 1.3 and are based on established concepts from other languages.
 - [Room](https://developer.android.com/reference/android/arch/persistence/room/RoomDatabase) - Room Database is a fluent way of using SQL lite its more simple and reduces boilerplates. The room persistence library provides an abstraction layer over SQL lite allows fluent database access while harnessing the full power of SQL lite.
 
-Login Page | SignUp Page | Home Page 1 | Home Page 2 |
---- | --- | --- | --- |
-![](https://github.com/KaranJadaun/CarEase/blob/master/loginPage.png) | ![](https://github.com/KaranJadaun/CarEase/blob/master/signUpPage.png) | ![](https://github.com/KaranJadaun/CarEase/blob/master/homePage2.png) | ![](https://github.com/KaranJadaun/CarEase/blob/master/homePage1.png)
-
-Favourite Page | Cart Page | Profile Page
- --- | --- | --- |
-![](https://github.com/KaranJadaun/CarEase/blob/master/favPage1.png) | ![](https://github.com/KaranJadaun/CarEase/blob/master/bagPage1.png) | ![](https://github.com/KaranJadaun/CarEase/blob/master/profilePage1.png) |
+Login Page | SignUp Page | Home Page 1 | Home Page 2 | Favourite Page | Cart Page | Profile Page 
+--- | --- | --- | --- |  --- | --- | --- |
+![](https://github.com/KaranJadaun/CarEase/blob/master/loginPage.png) | ![](https://github.com/KaranJadaun/CarEase/blob/master/signUpPage.png) | ![](https://github.com/KaranJadaun/CarEase/blob/master/homePage2.png) | ![](https://github.com/KaranJadaun/CarEase/blob/master/homePage1.png) | ![](https://github.com/KaranJadaun/CarEase/blob/master/favPage1.png) | ![](https://github.com/KaranJadaun/CarEase/blob/master/bagPage1.png) | ![](https://github.com/KaranJadaun/CarEase/blob/master/profilePage1.png) 
