@@ -20,9 +20,9 @@ https://github.com/KaranJadaun/CarEase/assets/73349879/7674daa9-f928-4ee3-957b-b
 
 Login Page | SignUp Page | Favourite Page | Cart Page | 
 --- | --- | --- | --- |
-<img src = "https://github.com/KaranJadaun/CarEase/blob/master/loginPage.png"> | <img src = "https://github.com/KaranJadaun/CarEase/blob/master/signUpPage.png"> | <img src = "https://github.com/KaranJadaun/CarEase/blob/master/favPage1.png"> | <img src = "https://github.com/KaranJadaun/CarEase/blob/master/bagPage1.png">
+<img src = "https://github.com/KaranJadaun/CarEase/blob/master/assets/loginPage.png"> | <img src = "https://github.com/KaranJadaun/CarEase/blob/master/assets/signUpPage.png"> | <img src = "https://github.com/KaranJadaun/CarEase/blob/master/assets/favPage1.png"> | <img src = "https://github.com/KaranJadaun/CarEase/blob/master/assets/bagPage1.png">
 
 
 Home Page | Profile Page | Product Page | Home Page |
 --- | --- | --- |  --- |
-<img src = "https://github.com/KaranJadaun/CarEase/blob/master/homePage1.png"> | <img src = "https://github.com/KaranJadaun/CarEase/blob/master/profilePage1.png"> | <img src = "https://github.com/KaranJadaun/CarEase/blob/master/productPage1.png"> | <img src = "https://github.com/KaranJadaun/CarEase/blob/master/homePage2.png" >
+<img src = "https://github.com/KaranJadaun/CarEase/blob/master/assets/homePage1.png"> | <img src = "https://github.com/KaranJadaun/CarEase/blob/master/assets/profilePage1.png"> | <img src = "https://github.com/KaranJadaun/CarEase/blob/master/assets/productPage1.png"> | <img src = "https://github.com/KaranJadaun/CarEase/blob/master/assets/homePage2.png" >
