@@ -4,6 +4,10 @@
 ## 🎥 Video Demo
 https://github.com/KaranJadaun/CarEase/assets/73349879/7674daa9-f928-4ee3-957b-b6fefaa85d60
 
+## 🧑‍🏭 Currently changing
+* Implementing a secure payment gateway using some API.
+* Some Minor UI changes
+  
 ## 🛠 Built With  
 
 - [Kotlin](https://kotlinlang.org/) - Kotlin is a cross-platform, statically typed, general-purpose high-level programming language with type inference. Kotlin is designed to interoperate fully with Java, and the JVM version of Kotlin's standard library depends on the Java Class Library, but type inference allows its syntax to be more concise.
